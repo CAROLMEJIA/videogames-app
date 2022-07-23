@@ -1,0 +1,33 @@
+.subMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    padding: 0px;
+    padding-top: 14px;
+    margin: 0px;
+    background-color:#09C4C2;
+    border: 0px solid red;
+   
+    
+}
+
+.subMenu div{
+    margin-bottom: 8px;
+}
+
+.boton{
+    position: relative;
+    background-color: white;
+    top: 20px;
+    font-size: 30px;
+    color: #09C4C2;
+    border-radius: 8px;
+    width: 35px;
+    border: 0px solid blue;
+    box-shadow:  rgb(46, 46, 46) 2px 4px 7px 0px;
+}

@@ -1,0 +1,43 @@
+.contenedorGeneral{
+    width: 100%;
+}
+
+.contVideogames{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+   
+   
+}
+
+.contOpciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin-right: 19px;
+    margin-top:5px;
+    width: 15%;
+    border: white solid 0px;
+    position: absolute;
+    top: 22px;
+    right: 70px;
+    
+    
+}
+
+
+
+
+.selectOrdenar:hover{
+    
+    -webkit-transform : scale(1.1);  
+}
+
+
+
+.selectborrar:hover{
+    
+    -webkit-transform : scale(1.1);  
+}

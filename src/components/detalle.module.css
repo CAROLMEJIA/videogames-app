@@ -1,0 +1,141 @@
+.contenedor{
+    border: pink solid 0px;
+    border-radius: 6px;
+    width: 60%;
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding: 10px;
+    font-size: 13px;
+    background-image: url("../img/fondo-opacidad.png");
+    color:rgb(109, 107, 107);
+    box-shadow:  rgb(46, 46, 46) 4px 5px 10px 0px;
+   
+}
+
+.description{
+    text-align: justify;
+   
+}
+
+.contenedor2{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 0px;
+    display: flex;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    flex-direction: column;
+    justify-content: left;
+    /*border-right:  #09C4C2 solid 2px;*/
+    border-radius: 6px;
+    border-right: 0px solid rgb(109, 107, 107);
+    font-size: 70%;
+}
+
+.p2{
+    padding-bottom: 3px;
+    border-bottom: 1px solid #09C4C2;
+    text-align: left;
+}
+
+.p3{
+    padding-bottom: 3px;;
+    border-bottom: 1px solid #09C4C2;
+    text-align: left;
+}
+
+.btnAtras{
+    font-size: 22px;
+    border: 0px solid white;
+    position: relative;
+    bottom: 0px;
+   
+}
+
+.btnAtras:hover{
+    
+    -webkit-transform : scale(1.1);  
+}
+
+.contImagen{
+    margin-top: 6%;
+    padding: 15px;
+    margin-bottom: 20%;
+    border: 0px solid black;
+    width: 50%;
+    height: auto;
+    font-size: 70%;
+    border: 0px solid green;
+}
+
+.imagen{
+    object-fit:contain;
+    object-position: top;
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    margin-top: 0px;
+}
+
+.name{
+    font-size: 20px;
+    border-bottom: 0px solid black;
+}
+.carga{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: solid 0px red;
+    
+}
+
+@media screen and (max-width:900px){
+
+    .contenedor{
+        width: 100%;
+        margin:0px;
+        padding: 0px;
+        padding-bottom: 10px;
+        height: auto;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        box-shadow:  none;
+    }
+
+    .contImagen{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        border:0px solid black;
+        width: 70%;
+        height: auto;
+        font-size: 70%;
+        padding: 10px;
+      
+    
+    }
+
+    .contenedor2{
+        width: 70%;
+    }
+
+    .name{
+        
+        font-size: 18px;
+        text-align: center;
+        border: 0px solid black;
+    }
+
+}
